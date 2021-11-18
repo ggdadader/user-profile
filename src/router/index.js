@@ -18,16 +18,16 @@ export default new Router({
       name: 'root',
       redirect: '/User'
     },
-    {
-      path: '/signin',
-      name: 'sign-in',
-      component: SignIn
-    },
-    {
-      path: '/signup',
-      name: 'sign-up',
-      component: () => import('../views/SignUp.vue')
-    },
+    // {
+    //   path: '/signin',
+    //   name: 'sign-in',
+    //   component: SignIn
+    // },
+    // {
+    //   path: '/signup',
+    //   name: 'sign-up',
+    //   component: () => import('../views/SignUp.vue')
+    // },
 
     {
       path: '/user',
