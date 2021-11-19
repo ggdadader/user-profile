@@ -34,11 +34,7 @@ export default new Router({
       name: 'user',
       component: User
     },
-    {
-      path: '/user',
-      name: 'user',
-      component: () => import('../views/User.vue')
-    },
+    
     
     {
       path: '*',
